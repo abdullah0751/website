@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="name">Muhammad Abdullah</a>
+      <br>
+      <span class="designation">(Avionics Engineer)</span>
+    </h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Hi! I'm Muhammad Abdullah, an Avionics Engineer  in IST.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML / CSS</li>
+      <li>JavaScript</li>
+      <li>React / Vue</li>
+      <li>Python / Node.js</li>
+    </ul>
+  </section>
+
+  <!-- Example project section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project" onclick="showProjectDetails('project1')">
+      <h3>Project One</h3>
+      <div id="project1" class="project-details" style="display:none;">
+        <p>
+          • <strong>Ultrasonic Distance Measurement:</strong> Using an ultrasonic sensor (HC-SR04) communicating with a PIC16F877A
+          microcontroller to measure distance of an obstacle and display it on an LCD screen
+        </p>
+      </div>
+    </div>
+    <div class="project" onclick="showProjectDetails('project2')">
+      <h3>Project Two</h3>
+      <div id="project2" class="project-details" style="display:none;">
+        <p>
+          <strong>•	Automatic Night Lamp using LDR and Transistor: </strong>Designed a simple automatic night lamp that turns ON in
+             the dark and turns OFF in the light using an LDR, transistor, battery, potentiometer, and resistor.</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Email: <a href="mailto:you@example.com">abdullahshahidqa@gmail.com.com</a></p>
+    <p>Phone: <a href="tel:+1234567890">+92306-0517140</a></p>
+    <p>
+      <a href="https://instagram.com/aabdullah_007" target="_blank" style="margin-right:10px;">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://facebook.com/Muhammad Abdullah" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </p>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
